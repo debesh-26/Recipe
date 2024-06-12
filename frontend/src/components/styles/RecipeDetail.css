@@ -1,0 +1,30 @@
+.recipe-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recipe-detail h2 {
+    margin-top: 0;
+  }
+
+  
+  .recipe-detail p {
+    margin-top: 0.3rem;
+  }
+  
+  .recipe-detail button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #c36b30;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe-detail button:hover {
+    background-color: #be7a4c;
+  }
+  

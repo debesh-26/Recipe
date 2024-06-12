@@ -1,0 +1,43 @@
+.homepage {
+    text-align: center;
+    background-image: url("../../images/restpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+  }
+  
+  .banner {
+    background-color:#b38d7467 ;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+  
+  .banner h2 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .banner-buttons {
+    margin-top: 1rem;
+  }
+  
+  .banner-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #c36b30;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .banner-buttons button:hover {
+    background-color: #cf7d46;
+  }
+  

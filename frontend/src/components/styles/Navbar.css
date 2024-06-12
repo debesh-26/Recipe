@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #171716;
+    color: #c36b30;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  nav div {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #c36b30;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color:#cf7d46;
+  }
+  
+  nav img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+  }
+  
+  nav .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .user-info span {
+    margin-right: 0.5rem;
+  }
+  
