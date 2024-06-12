@@ -32,7 +32,6 @@ const Recipes = () => {
             <h3>{recipe.name}</h3>
             <img src={recipe.image} alt={recipe.name} className="recipe-image" />
             <p><strong>Purchased by:</strong> {recipe.purchased_by}</p>
-            <p><strong>Creator:</strong> {user.displayName}</p>
             <p><strong>Country:</strong> {recipe.country}</p>
             <Link to={`/recipe/${recipe._id}`}>View The Recipe</Link>
           </div>

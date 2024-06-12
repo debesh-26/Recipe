@@ -3,7 +3,7 @@ import './styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='foot'>
       <p>Developed by Debesh</p>
       <div className="social-links">
         <a href="https://github.com/debesh-26" target="_blank" rel="noopener noreferrer">GitHub</a>
