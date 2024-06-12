@@ -5,6 +5,8 @@ import './styles/Recipes.css';
 import { UserContext } from '../context/UserContext';
 
 const Recipes = () => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
+
   const [recipes, setRecipes] = useState([]);
   const { user } = useContext(UserContext);
 

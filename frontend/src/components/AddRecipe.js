@@ -5,7 +5,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 import { UserContext } from '../context/UserContext';
 
 const AddRecipe = () => {
-
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
   const user=useContext(UserContext)
   console.log(user);
   const navigate=useNavigate();
@@ -71,7 +71,6 @@ const AddRecipe = () => {
             <option value="">Select Category</option>
             <option value="Dessert">Dessert</option>
             <option value="Main Course">Main Course</option>
-            {/* Add more categories as needed */}
           </select>
         </div>
         <button type="submit">Add Recipe</button>

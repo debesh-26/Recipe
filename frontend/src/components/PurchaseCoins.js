@@ -4,6 +4,8 @@ import axios from 'axios';
 import './styles/PurchaseCoins.css';
 
 const PurchaseCoins = () => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
+
   const { user, setUser } = useContext(UserContext);
   const [amount, setAmount] = useState('');
 

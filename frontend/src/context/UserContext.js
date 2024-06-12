@@ -5,6 +5,8 @@ import axios from 'axios';
 const UserContext = createContext();
 
 const UserProvider = ({ children }) => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
+
   const [user, setUser] = useState(null);
 
   useEffect(() => {

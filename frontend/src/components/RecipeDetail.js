@@ -6,6 +6,8 @@ import './styles/RecipeDetail.css';
 import { toast } from 'react-toastify';
 
 const RecipeDetail = () => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
+
   const { user, setUser } = useContext(UserContext);
   const { id } = useParams();
   const navigate = useNavigate();

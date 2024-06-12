@@ -7,6 +7,7 @@ import axios from 'axios';
 import './styles/Navbar.css';
 
 const Navbar = () => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
   const { user, setUser } = useContext(UserContext);
   const navigate = useNavigate();
   console.log(user);
@@ -22,7 +23,6 @@ const Navbar = () => {
       };
     
 
-      // Send user data to your backend to store in MongoDB
       const res = await axios.post('/api/auth/login', userData, {
         headers: {
           Authorization: `Bearer ${token}`,

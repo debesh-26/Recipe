@@ -4,6 +4,8 @@ import RecipeCard from './RecipeCard';
 import { UserContext } from './context/UserContext';
 
 const AllRecipes = () => {
+  axios.defaults.baseURL = 'https://recipe-production-a491.up.railway.app';
+
   const [recipes, setRecipes] = useState([]);
   const [category, setCategory] = useState('');
   const [country, setCountry] = useState('');
@@ -75,13 +77,11 @@ const AllRecipes = () => {
           <option value="">All Categories</option>
           <option value="Dessert">Dessert</option>
           <option value="Main Course">Main Course</option>
-          {/* Add more categories as needed */}
         </select>
         <select onChange={handleCountryChange} value={country}>
           <option value="">All Countries</option>
           <option value="USA">USA</option>
           <option value="India">India</option>
-          {/* Add more countries as needed */}
         </select>
       </div>
       <div>
