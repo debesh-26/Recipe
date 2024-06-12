@@ -28,7 +28,6 @@ const App = () => {
             <Route path="/recipe/:id" element={<PrivateRoute component={RecipeDetail} />} />
             <Route path="/purchase-coins" element={<PrivateRoute component={PurchaseCoins} />} />
           </Routes>
-          <Footer/>
         </div>
       </Router>
     </UserProvider>
