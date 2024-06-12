@@ -2,7 +2,7 @@ footer {
     text-align: center;
     padding: 0.6rem;
     background-color: #171716;
-    color: #c36b30;
+    color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -10,7 +10,7 @@ footer {
   
   footer .social-links a {
     margin: 0 1rem;
-    color: #c36b30;
+    color: #fff;
     text-decoration: none;
   }
   
